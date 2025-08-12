@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #fdf6ec;
+    color: #333;
+    padding: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+img  {
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+button  {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.breed  {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px auto;
+    max-width:  600px;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
