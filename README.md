@@ -3,7 +3,9 @@
 This is a simple JavaScript project that shows random cat images using [TheCatAPI] (https://thecatapi.com/).
 It also includes a page with information about various cat breeds.
 
-🔗 **Live Website:** [Click here see the site] (https://tatianaut.github.io/random-cat-website/)
+## Live Demo
+
+[Click here to view the website] (https://tatianaut.github.io/random-cat-website/)
 
 ## How to Run
 
