@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Random Cat</title>
+    <title> Random Cat 🐱</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav>
-        <a href="index.html">Random Cat</a>
-        <a href="breeds.html">Breeds</a>
-    </nav>
 
-    <h1> Random Cat 🐱 </h1>
-    <img id="catImage" src="" alt="Cat photo" width="400">
-    <br>
-    <button id="newCatBtn">Show more!</button>
+<body onload="fetchCat()">
+    <h1> Random Cat 🐾 </h1>
+
+    <!--Cat's picture-->
+    <div id="cat-container">
+        <img id="catImage" src="" alt="Random Cat" width="400">
+    </div>
+    <!--The button "Show more"-->
+    <button id="newCatBtn" class="btn">Show more!</button>
+
+    <!--Navigation to the breed page-->
+    <div class="nav">
+        <a href="breeds.html" class="btn">Cat breeds 🐱</a>
+    </div>
 
     <script src="script.js"></script>
 </body>
